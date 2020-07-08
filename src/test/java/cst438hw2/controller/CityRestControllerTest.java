@@ -45,7 +45,6 @@ public class CityRestControllerTest {
 
 	@Test
 	public void getCityInfo() throws Exception {
-		//test definition of city
 		City city = new City(1, "TestCity", "TST", "DistrictTest", 100000);
 
 		// Test CityService
@@ -70,7 +69,6 @@ public class CityRestControllerTest {
 
 	@Test
 	public void testCityNotFound() throws Exception {
-		//test definition of city
 		City city = new City(1, "TestCity", "TST", "DistrictTest", 100000);
 
 		// Test CityService
@@ -90,7 +88,6 @@ public class CityRestControllerTest {
 
 	@Test
 	public void testCityMultiple() throws Exception {
-		//test definition of city
 		City city0 = new City(1, "TestCity", "TST0", "DistrictTest0", 100000);
 		City city1 = new City(1, "TestCity", "TST1", "DistrictTest1", 111111);
 		City city2 = new City(1, "TestCity", "TST2", "DistrictTest2", 222222);
