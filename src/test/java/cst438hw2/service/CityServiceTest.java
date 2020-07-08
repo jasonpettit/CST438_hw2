@@ -102,7 +102,6 @@ public class CityServiceTest {
 	
 	@Test 
 	public void  testCityMultiple() {
-		// test definition of multiple countries, cities, and cities lists
 		Country country0 = new Country("TST0", "TestCountry0");
 		Country country1 = new Country("TST1", "TestCountry1");
 		Country country2 = new Country("TST2", "TestCountry2");
